@@ -1,0 +1,390 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+    /* border box meaning - it makes border inside the div box. by deafult the border comes outside of div */
+}
+
+.navbar{
+    height:60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url(amazon.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 50px;
+}
+
+.border{
+    border: 2px solid transparent;
+    border-radius :4%;
+}
+
+.border:hover {
+    border: 2px solid white;
+}
+
+/** box2 **/
+
+.add-icon{
+    display: flex;
+    align-items:center;
+}
+
+.add-first{
+color: #cccccc;
+font-size: 0.85rem;
+margin-left: 15px;
+}
+
+.add-sec{
+font-size: 1rem;
+margin-left: 3px;
+}
+
+/* box 3 */
+
+.nav-search{
+    display: flex;
+    background-color: pink;
+    width:900px;
+    height: 40px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+.search-select{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border: none;
+    padding: 0px 5px 0px 0px ;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    background-color: #ffa723;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+
+/* box 4 */
+
+.nav-map{
+    width: 52px;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 8px 0px 0px 0px;
+    
+}
+
+.map{
+    width: 24px;
+    height: 18px;
+    /* font-size: 14px; */
+}
+
+.text{
+    width: 18px;
+    height: 15px;
+}
+
+.arrow{
+    width: 8px;
+    height: 4px;
+    padding: 0px 0px 8px 7px;
+    color: #bfbebe;
+    display: flex;
+}
+
+/* box 5 */
+span{
+    font-size: 0.75rem;
+}
+
+.arrow-sec{
+    display: flex;
+}
+
+.arrow-two{
+    color: #bfbebe;
+    padding: 0px 0px 0px 4px;
+}
+
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* box 6 */
+
+.nav-cart i{
+    font-size: 30px;
+}
+
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* panel */
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-options p{
+    display: inline;
+    margin: 10px;
+}
+
+.panel-options{
+    width: 80%;
+    font-size: 0.85rem;
+}
+
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/* hero section */
+
+.hero-section{
+    background-image: url(background.jpg);
+    background-size: cover;
+    height: 340px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    
+}
+
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    margin-bottom: 25px;
+}
+
+.hero-msg a{
+    color: #007185;
+}
+
+/* shop section */
+
+.shop-sec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(237, 237, 146);
+}
+
+.box {
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    margin-top: 15px;
+    padding: 20px 0px 15px;
+    
+}
+
+.box-image{
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p{
+    color: #007185;
+    margin-top: 30px ;
+    font-size: 0.85rem;
+}
+
+.box-content p:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+/* bottom sign in */
+.bottom-sign{
+    background-color: rgb(237, 237, 146);
+}
+
+
+.end-part{
+    height: 120px;
+    border: 1px solid lightslategray;
+    background-color: white;
+    margin-left: 35px;
+    width: 95%;
+    text-align: center;
+    padding-top: 40px;
+}  
+
+.end-part p{
+    font-size: 0.8rem;
+    padding-bottom: 10px;
+}
+
+.down-button{
+    width: 230px;
+    height: 28px;
+    border-radius: 5px;
+    background-color: #ffa723;
+    color: black;
+    font-size: 0.7rem;
+    font-weight: 400;
+    /* cursor: pointer; */
+}
+
+.sec-p{
+    font-size: 0.5rem;
+    padding-top: 10px;
+}
+
+.sec-p a{
+    color: #007185;
+}
+
+.sec-p a:hover{
+    color: red;
+    cursor: pointer;
+}
+
+/* footer */
+
+footer{
+    margin-top: 5px;
+}
+
+.foot-panel1{
+    background-color: #374758;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul{
+    margin-top: 20px;
+}
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.footer-map{
+    display: flex;
+    height: 34px;
+    width: 160px;
+    border: 1px solid white;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left:30px ;
+}
+
+
+
+.logo{
+    background-image: url(amazon.jpg);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+    margin-right:100px ;
+}
+
+/* foot panel 4 */
+
+.foot-panel4{
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    text-align: center;
+}
+
+.pages{
+    font-size: 0.85rem;
+    padding-top: 25px ;
+}
+
+.copyright{
+    font-size: 0.85rem;
+    padding-top: 5px;
+}
